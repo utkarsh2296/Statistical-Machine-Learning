@@ -76,4 +76,3 @@ with open('obsr_1_1.txt', encoding='latin') as file:
 result = viterbi(d, initial_prob, observation_prob_matrix, transition_prob_matrix)
 # print(np.unique(result))
 print(get_output(result))
-
